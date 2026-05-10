@@ -40,7 +40,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
         <section id="home" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Welcome to Our Platform</h1>
+                    <h1>Welcome to Our Platforms</h1>
                     <p>Build amazing things with us. Simple, fast, and reliable solutions for your business needs.</p>
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn-primary">Get Started</a>
