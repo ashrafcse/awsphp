@@ -1,0 +1,34 @@
+# PHP specific
+*.log
+*.sql
+*.sqlite
+contact_log.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Server files
+*.cache
+*.pid
+
+# Composer (if you add later)
+vendor/
+composer.lock
+composer.phar
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
