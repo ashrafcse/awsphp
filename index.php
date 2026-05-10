@@ -126,7 +126,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
                         </div>
                         <div class="info-item">
                             <span class="info-icon">📞</span>
-                            <span>+1 (555) 123-4567</span>
+                            <span>+491707508637</span>
                         </div>
                         <div class="info-item">
                             <span class="info-icon">📍</span>
