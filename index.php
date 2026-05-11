@@ -130,7 +130,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
                         </div>
                         <div class="info-item">
                             <span class="info-icon">📍</span>
-                            <span>123 Main Street, New York, NY 10001</span>
+                            <span>162 Artur-Ladebeck, 33647 Bielefeld, Germany</span>
                         </div>
                     </div>
                     
