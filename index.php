@@ -122,7 +122,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
                         <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
                         <div class="info-item">
                             <span class="info-icon">📧</span>
-                            <span>hello@yourwebsite.com</span>
+                            <span>zamanitc@gmail.com</span>
                         </div>
                         <div class="info-item">
                             <span class="info-icon">📞</span>
