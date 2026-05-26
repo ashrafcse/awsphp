@@ -40,8 +40,9 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
         <section id="home" class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Welcome to My AWS PHP Site!</h1>
+                    <h1>Welcome to My AWS PHP Site! Now testing Docker Doker is okay  <h1>LIVE UPDATE WORKING</h1></h1>
                     <p>Build amazing things with us. Simple, fast, and reliable solutions for your business needs.</p>
+                    <h1>Updated from VS Code</h1>
                     <div class="hero-buttons">
                         <a href="#contact" class="btn btn-primary">Get Started</a>
                         <a href="#features" class="btn btn-secondary">Learn More</a>
