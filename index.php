@@ -23,7 +23,7 @@ if (isset($_GET['status']) && $_GET['status'] == 'success') {
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <h2>zamanitc 2026 auto update</h2>
+                    <h2>zamanitc 2026 auto update test</h2>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
