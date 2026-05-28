@@ -1,4 +1,31 @@
-script: |
-  echo "HOST=$EC2_HOST"
-  whoami
-  uname -a
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to AWS EC2
+        uses: appleboy/ssh-action@master
+
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_KEY }}
+
+          script: |
+            cd awsphp
+
+            git pull origin main
+
+            docker stop phpapp || true
+            docker rm phpapp || true
+
+            docker build -t myphpapp .
+
+            docker run -d -p 80:80 --name phpapp myphpapp
